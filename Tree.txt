@@ -1,0 +1,78 @@
+Folder PATH listing for volume Windows
+Volume serial number is 8A8F-1F7C
+C:.
+|   .env
+|   config.py
+|   forms.py
+|   gunicorn.config.py
+|   helpers.py
+|   models.py
+|   package-lock.json
+|   package.json
+|   requirements.txt
+|   Tree.txt
+|   
++---app
+|   |   __init__.py
+|   |   
+|   +---api
+|   |   |   routes.py
+|   |   |   
+|   |   \---__pycache__
+|   |           routes.cpython-39.pyc
+|   |           
+|   +---authentication
+|   |   |   routes.py
+|   |   |   
+|   |   +---auth_templates
+|   |   |       sign_in.html
+|   |   |       sign_up.html
+|   |   |       
+|   |   \---__pycache__
+|   |           routes.cpython-39.pyc
+|   |           
+|   +---site
+|   |   |   routes.py
+|   |   |   
+|   |   +---site_templates
+|   |   |       adventure.html
+|   |   |       index.html
+|   |   |       tavern.html
+|   |   |       
+|   |   \---__pycache__
+|   |           routes.cpython-39.pyc
+|   |           
+|   +---static
+|   |   +---CSS
+|   |   |       main.css
+|   |   |       
+|   |   \---images
+|   +---templates
+|   |       base.html
+|   |       forms.html
+|   |       
+|   \---__pycache__
+|           __init__.cpython-39.pyc
+|           
++---migrations
+|   |   alembic.ini
+|   |   env.py
+|   |   README
+|   |   script.py.mako
+|   |   
+|   +---versions
+|   |   |   44d9f8e82408_.py
+|   |   |   
+|   |   \---__pycache__
+|   |           44d9f8e82408_.cpython-39.pyc
+|   |           
+|   \---__pycache__
+|           env.cpython-39.pyc
+|           
+|           
+\---__pycache__
+        config.cpython-39.pyc
+        forms.cpython-39.pyc
+        helpers.cpython-39.pyc
+        models.cpython-39.pyc
+        

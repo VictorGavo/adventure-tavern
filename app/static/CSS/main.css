@@ -1,0 +1,166 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General styles */
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 20px;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .navigation {
+    display: flex;
+  }
+  
+  .navigation li {
+    margin-left: 20px;
+  }
+  
+  .navigation li:first-child {
+    margin-left: 0;
+  }
+  
+  .navigation a {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Forms */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  button[type="submit"] {
+    background-color: #222;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #111;
+  }
+  
+  /* Home page */
+  .hero {
+    height: 400px;
+    background-image: url('path/to/hero-image.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px #333;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px #333;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Contact page */
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* About page */
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Sign in/sign up page */

@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="bg-dark text-light text-center shadow">
+    <div class="container p-5 bg-dark">
+        <div class="row">
+            <div class="d-md-flex bg-dark align-items-center justify-content-evenly">
+                <h1 class="col text-center"><br>Victor's Vibrant Vittles & Vices</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-light text-center">
+    <div class="row"><br>
+        <h3 class="p-5">Here are your Player details</h3>
+        <ul class="list-group">
+            <li class="list-group-item">Email: {{ current_user. }}</li>
+            <li class="list-group-item">Token: {{ current_user.token }}</li>
+        </ul>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,30 @@
+
+{% extends 'base.html' %}
+{% block content %}
+<main>
+    <section>
+        <div>
+            <h2>The Adventures of {{ current_user.email }}</h2>
+        </div>
+    </section>
+
+    <section class="text-center">
+        <h3>This is where the image will go</h3>
+    <div class="container p-10">
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-4"></div>
+            <div class="col-3 p-10">
+                {{ dalle_image }}
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+    </section>
+    <section>
+        <div>
+            <h3>This is where the adventure will be! </h3>
+            <p>{{ encounter }}</p>
+        </div>
+    </section>
+</main>
+{% endblock %}
